@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titlebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: 3rem;
+}
+
+.leftContainer{
+    padding: 5rem;
+    background-color: rgb(175, 175, 175);
+    border-radius: 1.5rem;
+}
+
+.rightContainer{
+    padding: 5rem;
+    font-size: 3rem;
+    background-color: rgb(175, 175, 175);
+    border-radius: 1.5rem;
+}
+
+.inputs{
+    width: 30rem;
+    height: 3rem;
+}

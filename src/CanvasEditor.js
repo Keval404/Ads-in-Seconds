@@ -156,7 +156,8 @@ const CanvasEditor = (templateData) => {
             <div className="leftContainer">    
                 <canvas ref={canvasRef}
                 style={{ background: backgroundColor }}
-                width='1080' height='1080'>
+                width='1080' height='1080'
+                id='mycanvas'>
                 </canvas>
             </div>            
 
@@ -167,11 +168,13 @@ const CanvasEditor = (templateData) => {
                 <br />
                 <label>Caption Text: </label>
                 <input className='inputs' type="text" value={captionText} onChange={handleCaptionTextChange} />
-
+                
+                <br />
                 <br />
                 <label>CTA Text: </label>
                 <input className='inputs' type="text" value={ctaText} onChange={handleCtaTextChange} />
 
+                <br />
                 <br />
                 <label>Background Color: </label>
                 <input type="color" value={backgroundColor} onChange={handleBackgroundColorChange} />
